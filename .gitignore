@@ -1,0 +1,27 @@
+# Node
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Builds
+backend/dist/
+frontend/dist/
+
+# Env
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# Editor/OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Local run pids
+/tmp/*
+server.log
